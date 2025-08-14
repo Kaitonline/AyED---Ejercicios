@@ -5,7 +5,7 @@
 :cherry_blossom: Sobre las resoluciones: en ALGUNOS ejercicios hice una version con funciones a modo de practica personal, pero no es necesario, se ve en la guia 2 el uso de funciones.
 
 ## Enunciados:
-1.  [Operaciones aritméticas](EjerciciosDeRegistroUnico/Eje1.cpp)
+1.  [Operaciones aritméticas](Eje1.cpp)
   Dificultad: básica, Requerido: Indispensable.
 
   Se ingresan por teclado dos valores numéricos enteros, a y b, se pide calcular e informar por consola el resultado de las siguientes operaciones:

@@ -3,28 +3,24 @@
 #include <iostream>
 using namespace std;
 
-double calcularCociente(double divisor, double dividendo);
-
 int main() {
-	double divisor, dividendo;
+   double quinta,septima,nro;
+   int resto;
 
+   cout<<"Ingrese un numero: "<<endl;
+   cin>>nro;
 
-	cout<<"Ingrese un divisor: "<<endl;
-	cin>>divisor;
+   quinta = nro/5;
 
-   cout<<"Ingrese un dividendo: "<<endl;
-   cin>>dividendo;
+   cout<<"La quinta parte del numero es: "<<quinta<<endl;
 
-	if(divisor == 0){
-	   cout<<"No se puede hacer la division."<<endl;
-	}
-	else{
-	   cout<<"El cociente de la division es: "<<calcularCociente(divisor, dividendo)<<endl;
-	}
+   resto =(int)nro%5;
 
+   cout<<"El resto del numero dividido por 5 es: "<<resto<<endl;
+
+   septima = (quinta)/7;
+
+   cout<<"La septima parte de la quinta parte del valor ingresado: "<<septima<<endl;
 
 	return 0;
-}
-double calcularCociente(double divisor, double dividendo){
-  return dividendo / divisor;
 }
